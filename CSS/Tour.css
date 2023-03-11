@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.Title{
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: burlywood;
+    color:whitesmoke;
+    font-weight: 800;
+    text-decoration: none;
+
+}
+.sub-title{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: 600;
+
+}

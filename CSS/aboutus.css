@@ -1,0 +1,99 @@
+.sec-aboutus{
+    background-image: url('../img/aboutus.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 33rem;
+    width: 100%;
+    box-shadow:0 -4px 18px 3px rgb(0 0 0 / 20%);
+   
+    /* margin-top: -25px; */
+    
+}
+.who-heading{
+    color:#0c394d ;
+    font-size: 2rem;
+    text-shadow: 2px 2px #fff;
+}
+.who-content{
+    color:#0c394d ;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 2px 2px #fff;
+}
+/* nav bar css */
+.nav-section{
+    background: none !important;
+}
+.nav-S-P li a{
+    color: #0c394d;
+    text-shadow: 0.5px 0.5px #fff;
+    font-size: 17px;
+}
+/* nav bar css end */
+.who-container{
+   margin-top: 5.5rem;
+}
+.aboutus-heading{
+    color: #0c394d;  
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.aboutus-content{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0c394d;  
+    line-height: 1.5;
+}
+.aboutus-container{
+   
+    padding-top: 4rem;
+    
+    box-shadow: rgba(108, 217, 49, 0.25) 0px 100px 60px -12px inset, rgba(108, 217, 49, 0.25) 0px -100px 36px -18px inset;
+}
+.sec-team{
+    
+    box-shadow: rgba(108, 217, 49, 0.25) 0px 100px 60px -12px inset, rgba(108, 217, 49, 0.25) 0px -100px 36px -18px inset;
+
+}
+.sec-team-flex{
+    display: flex;
+    gap: 20px;
+    padding: 3rem 0;
+   
+   }
+.dev-box{
+width: 30%;
+}
+.photo img{
+    width: 50%;
+    height:7rem;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.photo{
+    text-align: center;
+    /* width: 100%; */
+    /* height: 20px; */
+    /* overflow: hidden; */
+}
+.dev-name{
+text-align: center;
+margin: 10px auto;
+font-size: 2rem;
+
+}
+.about-dev{
+    text-align: center;
+    line-height: 1.5;
+    color: #6c757d;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.font-s{
+    font-size: 1rem !important;
+}
+/* footer */
+.footer{
+    background-color: rgba(108, 217, 49, 0.25) !important;
+}

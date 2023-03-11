@@ -1,0 +1,170 @@
+.signup{
+    background-image: url("../img/su1.jpg");
+    background-position: center;
+    background-size: cover;
+    /* filter: brightness(50%); */
+    height: 46rem;
+}
+.nav-S-P li a{
+    /* color: #fff !important; */
+}
+.box-sign{
+ /* filter: blur(20%); */
+    /* background-color: #fff; */
+    /* border: 1px solid #4caf50; */
+    border-radius: 5px;
+     width: 25rem;
+    /* height: 25rem;  */
+    margin: 1rem auto;
+    padding: 1rem;
+    box-shadow: rgba(111, 111, 216, 0.25) 0px 40px 70px 22px inset, rgba(39, 38, 38, 0.3) 0px 28px 46px 28px inset;
+}
+::placeholder{
+    color: #24e1e1d4;
+    font-weight: 600;
+}
+.signfield{
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+    display: block;
+    width: 90%;
+    text-align: center;
+    border: none;
+    border-bottom:1px solid #39CCCC;
+    margin: 2rem auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* position: relative; */
+}
+.signup-hd{
+    text-align: center;
+    color: #FF851B;
+    text-shadow: 2px 2px #003d59;
+    font-size: 38px;
+    margin:10px 0 50px 0px ;
+    text-decoration:dotted;
+}
+.btn-sign{
+    /* margin: 0 auto; */
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: #fff000;
+    color: #003d59;
+    font-size: 18px;
+    padding: 7px 18px;
+    border-radius: 25px;
+    /* text-shadow: 2px 2px  #003d59; */
+    /* position: relative;
+    left: 35%; */
+    cursor: pointer;
+}
+.btn-sign:hover{
+background-color: #ffbf00;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.main-box{
+    text-align: center;
+}
+.sign_in_up_box{
+    margin-top: 10px;
+}
+.sign_in_up_box:first-child{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+}
+.fd{
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 23px;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 7px 20px;
+}
+.btn:hover{box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color: yellow;
+    border: 1px solid yellow;
+}
+#box-signin{
+  display: none;
+}
+#box-signup{
+   /* visibility: visible; */
+}
+
+/* feedback form */
+
+
+.box-feedback{
+    border-radius: 5px;
+    width: 25rem;
+    /* height: 26rem; */
+    margin: 1rem auto;
+    /* background-color: black; */
+    border: 1px solid yellow;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.box-feedback div{
+    padding: 10px 20px;
+}
+.box-feedback p{
+
+margin: 4px 0 15px 0;
+}
+
+.feedback-hd{
+
+    background-color: yellow !important;
+    padding: 5px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -30px 36px -28px inset;
+}
+.box-feedback label{
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    color: yellow;
+    margin: 12px  0;
+}
+.fd-field{
+    width: 100%;
+    outline: none;
+    border: 1px solid yellow;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+}
+#FDTarea{
+    background-color: transparent;
+    border: 1px solid yellow;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+}
+.FD_submit_btn{
+    text-decoration: none;
+    color: yellow;
+    border: 1px solid yellow;
+    padding: 7px 20px;
+    background: transparent;
+    font-size: 16px;
+    
+}
+.FD_submit_btn:hover{
+   color: #fff;
+   border: 1px solid #fff;
+}
+#box-feedback{
+   display: none;
+}
+.footer{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px !important  ;
+    background-color: #a0581d !important;
+}
